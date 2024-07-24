@@ -1,41 +1,78 @@
-# ZephyrLLMChatbot
-A guideline to build no-cost LLM chatbot 
+# 🛡️ Cybersecurity_Threat_Intelligence_Advisor: Your AI Threat Intelligence Companion
 
-This README provides a structured and detailed guide to help users through the process of creating and deploying a customized LLM chatbot using Hugging Face Spaces and Gradio, highlighting key steps and customization options, complete with useful links for easy navigation.
+## 🔍 What is Cybersecurity_Threat_Intelligence_Advisor?
+
+Cybersecurity_Threat_Intelligence_Advisor is an advanced AI-powered chatbot designed to be your go-to resource for cybersecurity threat intelligence. Built using cutting-edge language models and the Gradio interface, it provides real-time insights on cyber threats, vulnerabilities, and defensive strategies.
+
+---
+
+## 🚀 Features
+
+- **AI-Powered Responses**: Leverages the Zephyr-7b-beta model for intelligent threat analysis
+- **Customizable Interaction**: Adjust parameters like temperature and token limit for tailored outputs
+- **User-Friendly Interface**: Seamless chat experience powered by Gradio
+- **Real-Time Updates**: Stay informed about the latest in cybersecurity
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language Model**: HuggingFaceH4/zephyr-7b-beta
+- **Frontend**: Gradio
+- **Backend**: Python
+- **Dependency Management**: pip
+
+---
+
+## 🏁 Getting Started
+
+1️⃣ **Clone the Repository**
+   ```
+   git clone https://github.com/Yashkaran4377227/ZephyrLLMChatbot/.git
+   cd ZephyrLLMChatbot/
+   ```
+
+2️⃣ **Set Up Environment**
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3️⃣ **Install Dependencies**
+   ```
+   pip install -r requirements.txt
+   ```
+
+4️⃣ **Launch Cybersecurity_Threat_Intelligence_Advisor**
+   ```
+   python app.py
+   ```
+
+5️⃣ **Access the Interface**
+   Open your browser and navigate to the URL displayed in the terminal
+
+---
 
 
-# Build and Deploy Your Custom LLM App in 5 Minutes for Free
+## 🚨 Disclaimer
 
-## Introduction
-Have you ever wished to craft a chatbot tailored to your needs? Whether it's a culinary wizard to guide you through complex recipes or an artistic mentor to discuss the nuances of painting techniques, this comprehensive guide is your gateway. We'll walk you through the simple steps to build and deploy your own LLM-based chatbot using [Hugging Face Spaces](https://huggingface.co/spaces) and Gradio—all in just five minutes, and absolutely free of charge!
+Cybersecurity_Threat_Intelligence_Advisor is an AI assistant and should not replace professional cybersecurity advice. Always consult with qualified experts for critical security decisions.
 
-## Prerequisites
-Before you  start creating your chatbot, make sure you have the following:
-- **A Hugging Face Account**: Essential for accessing the platform where you'll build and host your chatbot. [Sign up here](https://huggingface.co/join).
+---
 
-## Setup and Deployment
-1. **Choosing Your Chatbot’s Identity**: Decide what your chatbot will specialize in. This could be anything from a chef, painter, or even a relaxing buddy to help you unwind. The role you choose will define the interactions and capabilities of your chatbot.
+## 🤝 Contribute
 
-2. **Logging into Hugging Face**:  Here, you'll need an account to access the tools required for deploying your chatbot. If you don't have an account, signing up is straightforward and quick.
+We welcome contributions! Here's how you can help:
 
-3. **Navigating to Hugging Face Spaces**: Spaces are where the magic happens. This section of Hugging Face allows users to create and manage their applications seamlessly. Navigate to [Spaces](https://huggingface.co/spaces) to get started.
+- 🐛 Report bugs
+- 💡 Suggest new features
+- 🔧 Submit pull requests
+---
 
-4. **Creating Your Space**: Initiate a new space by clicking on 'Create New Space'. It’s important that the name of your Space reflects the chatbot's role, as it helps in identifying the application’s purpose at a glance.
+## 📞 Contact
 
-5. **Configuring Your Chatbot**:
-   - **Selecting the Framework and Model**: Choose 'Gradio' as the framework for its user-friendly interface capabilities, and select a suitable model, such as 'Zephyr 7B', known for its versatility across various tasks.
-   - **Customization**: Here’s where you personalize the chatbot. Depending on the selected role, you might want to tailor system messages and interaction style. This customization will enable your chatbot to interact appropriately according to its role.
+Questions? Suggestions? Reach out to us at:
+- 📧 Email: ya4377227@alphacollege.me
+---
 
-6. **Deployment**: Once setup is complete, deploy your chatbot by simply clicking the create button. Deployment usually takes a couple of minutes. After this, your chatbot will be up and running and ready to interact.
-
-## Customization Example
-To make your chatbot truly unique, consider personalizing it extensively. For instance, if you choose a 'Relaxing Buddy' role:
-- Modify the system messages to include comforting phrases and stress-relief tips.
-- Program the chatbot to suggest relaxation exercises, guide through meditation sessions, or simply offer soothing conversations.
-
- Explore different roles and tweak the system instructions to discover the full potential of your chatbot. Don’t forget to share your creations and experiences, as your insights could inspire others in their chatbot development.
-
- If you wish to contribute: Please fork this repo. 
-
- For any question reach me out @ turna.fardousi@gmail.com
-
+Stay secure in the digital world with Cybersecurity_Threat_Intelligence_Advisor! 🔐🤖
